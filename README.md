@@ -95,17 +95,11 @@ Yes, as we came closer towards completing the project, we realized that with a q
 
 
 # Contributions
-Abdul Azeem https://github.com/abdulazeem-tk4vr
-<br/>
+
 Anirudh Sundar https://github.com/Anirudh-Sundar
 <br/>
 Karthik Suresh https://github.com/kart324
-<br/><br/>
-Special Mention : <br/>
-Aryan Arora https://github.com/aryanarora180
-<br/><br/>
-Graph :
-https://github.com/abdulazeem-tk4vr/LIVEMart/graphs/contributors
+<br/>
 
 # Description and Screenshots
 
@@ -123,10 +117,6 @@ Module 5: Feedback and Queries
 To make my readme concise, I have compiled the detailed explanation, screenshots and resources onto a google doc. Please access the doc to understand how the project was developed. <br/><br/>
 https://docs.google.com/document/d/1u7NezvEgl2LjCfYd3zU-BKDVAhGa6vAqoBTKNvGeIFg/edit?usp=sharing
 
-
-# Overview
-
-If you have any questions with respect to the project, you can e-mail me at sabdulazeem01@gmail.com
 
 
 

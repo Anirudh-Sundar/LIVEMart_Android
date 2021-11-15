@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.oop_project">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-feature android:name="android.hardware.type.watch" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OOP_project">
+        <activity android:name=".Main.AdminActivity"></activity>
+        <!--
+               Set to true if your app is Standalone, that is, it does not require the handheld
+               app to run.
+        -->
+        <meta-data
+            android:name="com.google.android.wearable.standalone"
+            android:value="true" />
+
+        <activity
+            android:name=".Main.NotificationMessage"
+            android:label="@string/title_activity_notification_message" />
+        <activity
+            android:name=".Main.CreateEvent"
+            android:label="@string/title_activity_create_event" />
+        <activity
+            android:name=".Main.AlarmActivity"
+            android:label="@string/title_activity_alarm" />
+        <activity
+            android:name=".Main.otp_extra.ShopFilterActivity"
+            android:label="@string/title_activity_shop_filter"
+            android:theme="@style/Theme.OOP_project.NoActionBar" />
+        <activity android:name=".Main.VerifyOTPActivity" />
+        <activity android:name=".Main.SendOTPActivity" />
+        <activity android:name=".Main.addproduct" />
+        <activity android:name=".Main.otp_extra.entermobilenumber" />
+        <activity android:name=".Main.otp_extra.verifyenterotptwo" />
+        <activity android:name=".Main.NavigationBar" />
+        <activity android:name=".Main.addprodnoimage" />
+        <activity android:name=".Main.LoginActivity" />
+        <activity android:name=".Main.RegisterActivity" />
+        <activity android:name=".Main.MainActivity" />
+        <activity android:name=".Main.LaunchActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

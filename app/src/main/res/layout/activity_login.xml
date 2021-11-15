@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/log"
+    android:paddingStart="15dp"
+    android:paddingEnd="15dp"
+    tools:context=".Main.LoginActivity">
+
+    <ImageView
+        android:id="@+id/login_applogo"
+        android:layout_width="339dp"
+        android:layout_height="165dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp"
+        android:rotationX="4"
+        android:src="@drawable/imagevol" />
+
+    <EditText
+        android:id="@+id/login_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_applogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/input_design"
+        android:fontFamily="@font/advent_pro_bold"
+        android:hint="Username"
+        android:inputType="text"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textSize="19sp" />
+
+
+    <EditText
+        android:id="@+id/login_password_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_username"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="4dp"
+        android:inputType="textPassword"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/input_design"
+        android:fontFamily="@font/advent_pro_bold"
+        android:hint="Password"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textSize="19sp" />
+
+    <LinearLayout
+        android:id="@+id/linear_layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_password_input"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="143dp"
+        android:orientation="horizontal">
+
+        <!--        <com.rey.material.widget.CheckBox-->
+        <!--            android:id="@+id/remember_me_chkb"-->
+        <!--            style="@style/Material.Drawable.CheckBox"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginLeft="17dp"-->
+        <!--            android:gravity="center_vertical"-->
+        <!--            android:text="Remember me"-->
+        <!--            android:textColor="#EF729D"-->
+        <!--            android:textSize="18sp"-->
+        <!--            android:textStyle="bold"-->
+        <!--            app:cbd_strokeColor="#EF729D" />-->
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_layout_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="-28dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <Spinner
+        android:id="@+id/spinner_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_password_input"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/input_design" />
+
+</RelativeLayout>
